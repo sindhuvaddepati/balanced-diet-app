@@ -1,0 +1,85 @@
+.logmeal-container {
+  background-color: #fff5e6;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logmeal-title {
+  text-align: center;
+  color: #ff6f61;
+  margin-bottom: 1.5rem;
+}
+
+.logmeal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group textarea {
+  height: 60px;
+  resize: vertical;
+}
+
+.nutrition-row {
+  display: flex;
+  gap: 8px;
+}
+
+.star-rating {
+  display: flex;
+  gap: 5px;
+}
+
+.submit-btn {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+}
+
+.submit-btn:hover {
+  background-color: #ff6333;
+}
+
+.nutrition-suggestion {
+  text-align: center;
+  margin-top: 1rem;
+  color: #006666;
+  background-color: #e7f8f5;
+  padding: 10px;
+  border-radius: 6px;
+}
