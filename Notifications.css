@@ -1,0 +1,56 @@
+.notification-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.notification-card {
+  width: 380px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  animation: slideDown 0.4s ease;
+}
+
+.notification-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.notification-item {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.notification-item:hover {
+  background: #f5f5f5;
+  transform: scale(1.01);
+}
+
+.notification-text {
+  font-weight: 500;
+  color: #333;
+}
+
+.read-text {
+  color: #aaa;
+  font-style: italic;
+}
+
+.empty-text {
+  color: #777;
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
